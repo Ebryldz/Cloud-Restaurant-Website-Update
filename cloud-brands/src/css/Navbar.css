@@ -1,0 +1,37 @@
+.unstyled-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-navbar ul li {
+    float: left;
+}
+
+
+.my-navbar li a {
+    display: block;
+    padding: 8px;
+    background-color: #fff;
+    color: black;
+}
+
+li a:hover {
+    display: -moz-grid-line;
+    color: black;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    gap: 10px;
+}
+
+.logo {
+    object-fit: contain;
+    height: 100px;
+}

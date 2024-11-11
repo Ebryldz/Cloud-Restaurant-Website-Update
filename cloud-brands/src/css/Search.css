@@ -1,0 +1,18 @@
+.search-icon {
+    position: absolute;
+    right: 10px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.search-button input {
+    padding-right: 40px;
+
+}

@@ -1,0 +1,15 @@
+.button {
+    border: none;
+    background: none;
+    transition: all 0.3s ease;
+    transform: scale(1);
+    display: inline;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+.button:active {
+    transform: scale(0.5);
+}

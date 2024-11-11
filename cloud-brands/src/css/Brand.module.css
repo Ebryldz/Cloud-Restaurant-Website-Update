@@ -1,0 +1,30 @@
+.brandsImages {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    aspect-ratio: 4/3;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.brandImage {
+    width: 100%;
+    flex: 1;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.4s ease-out;
+}
+
+.brandsImages:hover .brandImage {
+    transform: translateY(-80px);
+}
+
+.centeredImageText {
+    bottom: 20px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    z-index: 1;
+}

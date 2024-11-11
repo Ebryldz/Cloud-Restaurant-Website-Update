@@ -1,0 +1,21 @@
+.my-breadcrumb {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-breadcrumb li {
+    float: left;
+}
+
+.my-breadcrumb li:not(:first-child)::before {
+    content: ">";
+    padding-left: 5px;
+    padding-right: 5px;
+    color: gray;
+}
+
+.my-breadcrumb li a {
+    color: black;
+}

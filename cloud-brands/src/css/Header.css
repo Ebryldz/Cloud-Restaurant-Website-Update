@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    height: 200px;
+    filter: blur(2.5px);
+    background-image: url("../images/header-background-brands.jpg");
+}
+
+.title {
+    color: #fff;
+    z-index: 1;
+    font-size: 24px;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.header-title {
+    color: #fff;
+    z-index: 1;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.header-title-image {
+    width: 100%;
+    height: 200px;
+    opacity: 0.99;
+    filter: brightness(75%);
+}
